@@ -1,4 +1,13 @@
 .character {
   /* Fill the available container height */
   height: 100%;
+  position: fixed;
+}
+
+@media screen and (max-width: 800px) {
+  .character {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+  }
 }
